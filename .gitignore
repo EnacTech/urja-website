@@ -1,0 +1,8 @@
+# tests
+coverage/
+
+# IDEs and editors
+.vscode
+
+# misc
+.DS_Store
