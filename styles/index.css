@@ -73,3 +73,21 @@
   text-align: center;
   margin-bottom: 1rem;
 }
+
+.model {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85vh;
+}
+
+.info {
+  width: 40%;
+}
+
+model-viewer {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #aaaaaa20;
+}
