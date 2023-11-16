@@ -1,0 +1,46 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 2vw;
+  height: 15vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.nav img {
+  height: 15vh;
+}
+
+.nav div {
+  display: flex;
+  align-items: center;
+  gap: 2.7vw;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fafafa;
+}
+
+.nav div button {
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #151515;
+  border: 2px solid #fafafa;
+  background-color: #fafafa;
+  padding: 5px 8px;
+}
+
+.nav div button:hover {
+  color: #fafafa;
+  background-color: transparent;
+  border: 2px solid #fafafa;
+  cursor: pointer;
+}
+
+.nav a {
+  color: #fafafa;
+}
