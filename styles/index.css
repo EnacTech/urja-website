@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1vh 2vw;
-  height: 15vh;
+  padding: 1dvh 2dvw;
+  height: 15dvh;
   width: 100%;
   background-color: transparent;
   position: fixed;
@@ -20,13 +20,13 @@
 }
 
 .nav img {
-  height: 15vh;
+  height: 15dvh;
 }
 
 .nav div {
   display: flex;
   align-items: center;
-  gap: 2.7vw;
+  gap: 2.7dvw;
   text-transform: uppercase;
   font-weight: 500;
   color: #fafafa;
@@ -59,7 +59,7 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,7 +78,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 85vh;
+  height: 85dvh;
 }
 
 .info {
@@ -90,4 +90,32 @@ model-viewer {
   height: 100%;
   margin: 0 auto;
   background-color: #aaaaaa20;
+}
+
+.footer {
+  height: 12dvh;
+  width: 100dvw;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2dvw;
+  border-top: 1.5px solid #9e9e9e;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2dvw;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 1.2dvw;
+}
+
+.footer-social a img {
+  width: 20px;
 }
