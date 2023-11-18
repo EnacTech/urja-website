@@ -44,7 +44,7 @@ a {
     width: 0;
   }
   to {
-    width: 30%;
+    width: max-content;
   }
 }
 
@@ -62,9 +62,26 @@ a {
 
 #instagram {
   opacity: 0;
+  text-align: center;
   transition: opacity 0.3s ease-in-out;
 }
 
 #instagram a {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .coming-soon h1 {
+    font-size: 3rem;
+  }
+
+  #instagram {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .coming-soon h1 {
+    font-size: 2rem;
+  }
 }
