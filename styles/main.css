@@ -44,7 +44,7 @@ a {
     width: 0;
   }
   to {
-    width: max-content;
+    width: 100%;
   }
 }
 
