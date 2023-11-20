@@ -7,6 +7,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  background-color: #fafafa;
+  color: #151515;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -15,9 +20,4 @@ a {
 .dark-box {
   background-color: #151515;
   color: #fafafa;
-}
-
-.light-box {
-  background-color: #fafafa;
-  color: #151515;
 }

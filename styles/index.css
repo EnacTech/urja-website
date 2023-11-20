@@ -83,6 +83,7 @@
 
 .info {
   width: 40%;
+  padding-inline: 2dvw;
 }
 
 model-viewer {
